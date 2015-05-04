@@ -1,0 +1,35 @@
+{
+  "name": "react-pure-render",
+  "version": "1.0.0",
+  "description": "A function, a component and a mixin for React pure rendering",
+  "main": "modules/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gaearon/react-pure-render.git"
+  },
+  "scripts": {
+    "build": "./scripts/build",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "pure",
+    "render",
+    "shouldComponentUpdate",
+    "optimization",
+    "performance"
+  ],
+  "author": "Dan Abramov <dan.abramov@me.com> (http://github.com/gaearon)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gaearon/react-pure-render/issues"
+  },
+  "homepage": "https://github.com/gaearon/react-pure-render",
+  "optionalDependencies": {
+    "babel-eslint": "^3.0.1",
+    "eslint": "^0.20.0"
+  },
+  "devDependencies": {
+    "babel": "^5.2.9"
+  }
+}
