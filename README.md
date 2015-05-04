@@ -58,6 +58,11 @@ import shallowEqual from 'react-pure-render/shallowEqual';
 console.log(shallowEqual({ x: 42 }, { x: 42 });
 ```
 
+### Further Reading
+
+* [PureRenderMixin](https://facebook.github.io/react/docs/pure-render-mixin.html)
+* [Advanced Performance](https://facebook.github.io/react/docs/advanced-performance.html)
+
 ### License
 
 MIT
