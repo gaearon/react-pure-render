@@ -1,7 +1,8 @@
 # react-pure-render
 
-A function, a component and a mixin for React pure rendering.  
-This module provides exactly the same functionality as [PureRenderMixin](https://facebook.github.io/react/docs/pure-render-mixin.html), but as a standalone module and in three different flavors.
+A function, a component and a mixin for React pure rendering.
+
+This module provides *exactly* the same functionality as [PureRenderMixin](https://facebook.github.io/react/docs/pure-render-mixin.html), but as a standalone module and in three different flavors.
 
 ### Usage
 
@@ -21,7 +22,7 @@ export default class Button {
 
 ### Class
 
-Inheritance is not very cool but it doesn't hurt a lot if it's just for the sack of this single method. If you don't want to use stage 0 transforms, you can use base class instead:
+Inheritance is not very cool but it doesn't hurt a lot if it's just for the sack of this single method. If you don't want to use stage 0 transforms, you can use a base class instead:
 
 ```js
 import PureComponent from 'react-pure-render/component';
@@ -46,6 +47,15 @@ var Button = React.createClass({
 });
 
 module.exports = Button;
+```
+
+### shallowEqual
+
+Sometimes `shallowEqual` is all you need. It's bad to reach out into React internals, so this library exposes exactly the same `shallowEqual` you already know and love from React.
+
+```js
+import shallowEqual from 'react-pure-render/shallowEqual`;
+console.log(shallowEqual({ x: 42 }, { x: 42 });
 ```
 
 ### License
