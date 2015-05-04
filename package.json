@@ -1,6 +1,6 @@
 {
   "name": "react-pure-render",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A function, a component and a mixin for React pure rendering",
   "main": "index.js",
   "repository": {
