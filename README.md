@@ -20,7 +20,7 @@ export default class Button {
 }
 ```
 
-### Class
+### Component
 
 Inheritance is not very cool but it doesn't hurt a lot if it's just for the sake of this single method. If you don't want to use stage 0 transforms, you can use a base class instead:
 
