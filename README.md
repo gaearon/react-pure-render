@@ -58,6 +58,10 @@ import shallowEqual from 'react-pure-render/shallowEqual';
 console.log(shallowEqual({ x: 42 }, { x: 42 });
 ```
 
+### Known Issues
+
+If a component in the middle of your rendering chain has pure rendering, but some nested component relies on a `context` change up the tree, **the nested component won't learn about `context` change and won't update**. This is a [known React issue](https://github.com/facebook/react/issues/2517) that exists because `context` is not a documented feature and is not finished. However some React libraries already rely on `context`, for example, [React Router](https://github.com/rackt/react-router). My suggestion for now is to use pure components in apps relying on such libraries very carefully, and only use pure rendering for leaf-ish components that are known *not* to rely on any parent `context`.
+
 ### Further Reading
 
 * [PureRenderMixin](https://facebook.github.io/react/docs/pure-render-mixin.html)
