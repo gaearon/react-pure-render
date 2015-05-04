@@ -20,7 +20,7 @@ export default class Button {
 }
 ```
 
-### Component
+#### Component
 
 Inheritance is not very cool but it doesn't hurt a lot if it's just for the sake of this single method. If you don't want to use stage 0 transforms, you can use a base class instead:
 
@@ -32,7 +32,7 @@ export default class Button extends PureComponent {
 }
 ```
 
-### Mixin
+#### Mixin
 
 If you're working with `createClass`-style components, use the mixin. It's exactly the same as [`React.addons.PureRenderMixin`](https://facebook.github.io/react/docs/pure-render-mixin.html).
 
@@ -49,7 +49,7 @@ var Button = React.createClass({
 module.exports = Button;
 ```
 
-### shallowEqual
+#### shallowEqual
 
 Sometimes `shallowEqual` is all you need. It's bad to reach out into React internals, so this library exposes exactly the same `shallowEqual` you already know and love from React.
 
