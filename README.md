@@ -54,7 +54,7 @@ module.exports = Button;
 Sometimes `shallowEqual` is all you need. It's bad to reach out into React internals, so this library exposes exactly the same `shallowEqual` you already know and love from React.
 
 ```js
-import shallowEqual from 'react-pure-render/shallowEqual`;
+import shallowEqual from 'react-pure-render/shallowEqual';
 console.log(shallowEqual({ x: 42 }, { x: 42 });
 ```
 
