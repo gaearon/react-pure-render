@@ -2,7 +2,7 @@
   "name": "react-pure-render",
   "version": "1.0.0",
   "description": "A function, a component and a mixin for React pure rendering",
-  "main": "modules/index.js",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/gaearon/react-pure-render.git"
