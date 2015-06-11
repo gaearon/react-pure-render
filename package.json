@@ -1,6 +1,6 @@
 {
   "name": "react-pure-render",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A function, a component and a mixin for React pure rendering",
   "main": "index.js",
   "repository": {
@@ -25,11 +25,9 @@
     "url": "https://github.com/gaearon/react-pure-render/issues"
   },
   "homepage": "https://github.com/gaearon/react-pure-render",
-  "optionalDependencies": {
+  "devDependencies": {
+    "babel": "^5.2.9",
     "babel-eslint": "^3.0.1",
     "eslint": "^0.20.0"
-  },
-  "devDependencies": {
-    "babel": "^5.2.9"
   }
 }
