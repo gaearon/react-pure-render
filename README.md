@@ -11,9 +11,10 @@ This module provides *exactly* the same functionality as [PureRenderMixin](https
 This is my preferred method, but it requires ES7 [class property transform](https://gist.github.com/jeffmo/054df782c05639da2adb) to be enabled by putting `{ "stage": 0 }` in your [.babelrc](https://babeljs.io/docs/usage/babelrc/).
 
 ```js
+import { Component } from 'react';
 import shouldPureComponentUpdate from 'react-pure-render/function';
 
-export default class Button {
+export default class Button extends Component {
   shouldComponentUpdate = shouldPureComponentUpdate;
 
   render() { }
