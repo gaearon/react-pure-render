@@ -1,3 +1,13 @@
+# No Maintenance Intended
+
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
+<img src='http://i.imgur.com/S8ddNDs.gif' height='200'>
+
+This project is no longer actively maintained. It does its job, but there are no plans to extend or change it.
+We suggest you to use the official [`react-addons-shallow-compare`](https://facebook.github.io/react/docs/shallow-compare.html) package instead which does the same job. To wrap functional components in a more expressive way, we encourage you to check out [`recompose`](https://github.com/acdlite/recompose#optimize-rendering-performance).
+
+
 # react-pure-render
 
 A function, a component and a mixin for React pure rendering.
