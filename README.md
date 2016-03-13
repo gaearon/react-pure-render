@@ -55,7 +55,7 @@ Sometimes `shallowEqual` is all you need. It's bad to reach out into React inter
 
 ```js
 import shallowEqual from 'react-pure-render/shallowEqual';
-console.log(shallowEqual({ x: 42 }, { x: 42 });
+console.log(shallowEqual({ x: 42 }, { x: 42 }));
 ```
 
 ### Known Issues
